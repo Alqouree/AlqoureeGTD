@@ -226,7 +226,7 @@ end
 
 --=== KEY CHECK ===--
 CheckBtn.MouseButton1Click:Connect(function()
-    if TextBox.Text == "HELLOWORLD" then
+    if TextBox.Text == "" then
         Label.Text = "Key Accepted!"
         Label.TextColor3 = Color3.fromRGB(0,255,0)
         task.delay(1, showSpeedMenu)
