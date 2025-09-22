@@ -4,6 +4,7 @@ local plr = Players.LocalPlayer
 
 local whitelist = {
     ["Alqoure45"] = true,
+    ["Alqoure45"] = true,
 
 }
 
